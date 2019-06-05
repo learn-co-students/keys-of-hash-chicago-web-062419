@@ -7,7 +7,7 @@ class Hash
     self.each do |key, value|
       if arguments.include?(value)
         array << key
-        binding.pry
+        # binding.pry
       end
     end
     array
